@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Noto+Sans&family=Noto+Serif&display=swap');
+/*font-family: 'Courier Prime', monospace;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif', serif;*/
+
+/*Color Theme Swatches in Hex
+.final3-1-hex { color: #FFF587; }
+.final3-2-hex { color: #78DFFA; }
+.final3-3-hex { color: #FAEF73; }
+.final3-4-hex { color: #FA5A91; }
+.final3-5-hex { color: #AD476B; }*/
+body {
+  background-color: #FFF587;
+}
+
+#about {
+   background-image: linear-gradient(#FA5A91, #FFF587);
+}
+
+
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+h4 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: #4F4F4F; 
+}
+
+p {
+ font-family: 'Noto Sans', sans-serif;
+ font-size: 12px; 
+}
+
+figcaption {
+  font-family: 'Courier Prime', monospace;
+  font-size: 10px;
+  text-align: center;
+  
+}
+
+ul {
+  list-style-type: circle;
+  color:#9E0B00;
+}
+
+nav {
+  text-align: center;
+color:#9E0B00;
+}
+
+figcaption > a {
+color: #9E0B00;
+}
+
+li > a, nav > a {
+color:#9E0B00;
+font-family: 'Noto Serif', serif; 
+font-size: 12px;
+}
+
+.small {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20%;
+  width: 20%;
+}
+
+#toppicture {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 40%;
+  width: 40%;
+  padding: 5px;
+  border: solid 5px #AD476B;
+}
+
+.bold {
+  font-weight: bold;
+}
